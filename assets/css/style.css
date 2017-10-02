@@ -1,0 +1,445 @@
+* {
+	box-sizing: border-box;
+	color: #777777;
+}
+
+p {
+	font-size: 12px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+aside {
+	width: 310px;
+	right: 25%;
+	height: 270px;
+	background-color: white;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+	margin-bottom: 0px;
+	color: #4aaaa5;
+	text-align: left;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 45px;
+	margin-bottom: 20px;
+	color: #4aaaa5;
+	text-align: center;
+}
+
+#myname {
+	color: white;
+	background-color: #4aaaa5;
+
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+	background-color: #4aaaa5;
+}
+
+.navbar {
+	position: absolute;
+	top: 15px;
+	left: 650px;
+	text-align: right;
+	font-size: 18px;
+	color: white;
+}
+/*.navbar-brand {
+	background-color: #4AAAA5 !important;
+}*/
+.navbar a:link {
+    color: #333;
+}
+
+/* visited link */
+.navbar a:visited {
+    color: #333;
+}
+
+/* mouse over link */
+.navbar a:hover {
+    color: #333;
+}
+
+/* selected link */
+.navbar a:active {
+    color: #333;
+}
+
+
+.links {
+	float: relative;
+	position: center;
+
+}
+
+img {
+	float: left;
+	margin: 15px;
+}
+
+.head {
+	width: 960px;
+	height: 64px;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 8px;
+	border-bottom-color: #4AAAA5
+	border-style: solid;
+}
+
+header {
+	clear: auto;
+	margin-left: 150px;
+
+	margin-right: 85px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.contentbox {
+	position: relative;
+	left: 20px;
+	padding: 20px 20px 20px 20px;
+	width: 550px;
+	float: left;
+	text-align: center;
+	background-color: white;
+
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+
+.header1 {
+	height: 64px;
+	width: 290px;
+	margin: 0px 0px 0px 50px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-color: #4aaaa5;
+	text-align: center;
+	text-decoration-color: white;
+	padding: 10px;
+	color: #ffffff;
+	position: left;
+}
+
+main {
+	width: 960px;
+	position: relative;
+	text-align: center;
+	float: left;
+	background-image: url("../images/back_pattern.png");
+	background-repeat: repeat;
+	background-color: #cccccc;
+	padding: 15px;
+	margin: 0px auto 0px 15px;
+	height: auto;
+	border-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 8px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+
+.connect {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	float: right;
+	clear: both;
+	text-align: left;
+	padding: 35px;
+}
+
+br {
+	line-break: normal;
+}
+
+.mainarea {
+	float: left;
+}
+
+section {
+	width: 650px;
+}
+
+a {
+	color: #777777;
+}
+
+/* to make the footer sticky to the bottom */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    height: 70px;
+    width: 960px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding-top: 25px;
+    background-color: #666666;
+	clear: both;
+	margin-left: 15px;
+	border-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 8px;
+}
+
+.footer1 {
+	text-align: center;
+	color: lightgrey;
+}
+
+.pizza {
+	background-image: url('../images/cat1.jpg');
+	height: 220px;
+	width: 220px;
+	background-color: yellow;
+	float: left;
+	margin: 20px 15px 20px 15px;
+}
+
+.innerpizza {
+	color: white;
+	height: 36px;
+	width: 220px;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	bottom: -170px;
+	
+}
+
+.avocado {
+	background-image: url('../images/cat2.jpg');
+	height: 220px;
+	width: 220px;
+	background-color: yellow;
+	float: left;
+	margin: 20px 15px 20px 15px;
+}
+
+.inneravocado {
+	color: white;
+	height: 36px;
+	width: 220px;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	bottom: -170px;
+	
+}
+
+.habanero {
+	background-image: url('../images/cat3.jpg');
+	height: 220px;
+	width: 220px;
+	background-color: yellow;
+	float: left;
+	margin: 20px 15px 20px 15px;
+}
+
+.innerhabanero {
+	color: white;
+	height: 36px;
+	width: 220px;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	bottom: -170px;
+	
+}
+
+.ghostpepper {
+	background-image: url('../images/cat4.jpg');
+	height: 220px;
+	width: 220px;
+	background-color: yellow;
+	float: left;
+	margin: 20px 15px 20px 15px;
+}
+
+.innerghost {
+	color: white;
+	height: 36px;
+	width: 220px;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	bottom: -170px;
+	
+}
+
+.jalepeno {
+	background-image: url('../images/cat5.jpg');
+	height: 220px;
+	width: 220px;
+	background-color: yellow;
+	float: left;
+	margin: 20px 15px 20px 15px;
+
+}
+
+.innerjalepeno {
+	color: white;
+	height: 36px;
+	width: 220px;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	bottom: -170px;
+	
+}
+
+.panel {
+	margin-top: -318%;
+}
+
+@media screen and (max-width: 980px) {
+	/* No changes needed as it was designed for this size */
+}
+
+@media screen and (max-width: 768px) {
+	.contentbox {
+		width: 100%;
+		clear: both;
+	}
+
+	.connect {
+		width: 100%;
+		position: relative;
+		left: 20px;
+		padding: 20px 20px 20px 20px;
+	}
+
+	.navbar {
+	height: 64px;
+	width: 150px;
+	margin: 50px 0px 0px 0px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	padding: 10px;
+	}
+
+	main {
+		width: 100%;
+	}
+
+	footer {
+    width: 100%;
+	}
+
+	.head {
+	width: 100%;
+	clear: both;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	.header1 {
+		width: 50%;
+	}
+
+	head {
+		width: 100%;
+	}
+
+@media screen and (max-width: 640px) { 
+
+	/* Same CSS as 768px, exception that the Navbar comes below the Name-header */
+	.contentbox {
+		width: 100%;
+		clear: both;
+	}
+
+	.connect {
+		width: 100%;
+		position: relative;
+		left: 20px;
+		padding: 20px 20px 20px 20px;
+	}
+	
+	.navbar {
+	height: 64px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	padding: 10px;
+	}
+
+	main {
+		width: 100%;
+	}
+
+	footer {
+    width: 100%;
+	}
+
+	.head {
+	width: 100%;
+	clear: both;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	.header1 {
+		width: 50%;
+	}
+
+	head {
+		width: 100%;
+	}
+}
+

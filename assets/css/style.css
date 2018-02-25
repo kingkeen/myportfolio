@@ -338,6 +338,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 80px;
 }
 
+.projdisc {
+	font-size:15px;
+	padding: 5px;
+	color: white;
+}
+
 #portfoliowrap h1 {
 	font-weight: 300;
 	text-align: center;
